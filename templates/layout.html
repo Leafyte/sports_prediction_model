@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sports Match Predictor - Harness the power of Machine Learning to predict IPL, Football, and NBA match outcomes, win probabilities, and expected scores.">
+    <meta name="keywords" content="sports prediction, match predictor, machine learning, IPL cricket, football, NBA, random forest, flask app">
+    <title>Sports Predictor | ML Match Outcome Prediction</title>
+    <!-- Google Fonts: Inter & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="dark-theme">
+    <div class="background-grid"></div>
+    <div class="glow-bg-effects">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="app-header" id="main-header">
+        <div class="header-container">
+            <a href="/" class="app-logo" id="header-logo">
+                <i class="fa-solid fa-ranking-star logo-icon"></i>
+                <span class="logo-text">SPORTS<span class="text-accent">PREDICT</span></span>
+            </a>
+            
+            <nav class="main-nav" id="navigation-menu">
+                <ul class="nav-links">
+                    <li><a href="/" class="nav-item {% if request.path == '/' %}active{% endif %}" id="nav-home-link">Home</a></li>
+                    <li><a href="/predict" class="nav-item {% if request.path == '/predict' %}active{% endif %}" id="nav-predict-link">Predictor</a></li>
+                    <li><a href="/about" class="nav-item {% if request.path == '/about' %}active{% endif %}" id="nav-about-link">About Project</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <a href="/predict" class="btn btn-nav" id="quick-predict-btn">
+                    <span>Try Predictor</span>
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content wrapper -->
+    <main class="main-content-wrapper" id="content-area">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer" id="main-footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <div class="footer-logo">
+                    <i class="fa-solid fa-ranking-star footer-logo-icon"></i>
+                    <span>SPORTS<span class="text-accent">PREDICT</span></span>
+                </div>
+                <p class="footer-desc">A state-of-the-art sports outcome predictor using Scikit-Learn Random Forest models trained on historical match statistics.</p>
+            </div>
+            
+            <div class="footer-links-group">
+                <h4>Site Links</h4>
+                <ul class="footer-links">
+                    <li><a href="/">Home Page</a></li>
+                    <li><a href="/predict">Prediction Tool</a></li>
+                    <li><a href="/about">ML Methodology</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-tech-badges">
+                <h4>Tech Stack</h4>
+                <div class="badge-grid">
+                    <span class="tech-badge"><i class="fa-brands fa-python"></i> Python</span>
+                    <span class="tech-badge">Flask</span>
+                    <span class="tech-badge">Scikit-Learn</span>
+                    <span class="tech-badge">Pandas</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-bottom-container">
+                <p>&copy; 2026 Sports Predictor. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Script File -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
