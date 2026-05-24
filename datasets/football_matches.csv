@@ -1,0 +1,801 @@
+home_team,away_team,possession,shots_on_target,home_goals,away_goals,winner
+Manchester City,Manchester United,57,4,2,0,Home
+Arsenal,Manchester City,46,4,1,0,Home
+Chelsea,Manchester City,39,5,1,1,Draw
+Manchester City,Tottenham Hotspur,57,10,2,0,Home
+Manchester City,Arsenal,47,5,2,0,Home
+Real Madrid,Manchester United,55,7,0,0,Draw
+Manchester United,Barcelona,39,5,4,0,Home
+Chelsea,Manchester City,50,4,1,1,Draw
+Manchester United,Arsenal,49,5,0,2,Away
+Chelsea,Tottenham Hotspur,51,8,2,0,Home
+Real Madrid,Manchester City,52,5,0,3,Away
+Barcelona,Arsenal,44,7,1,0,Home
+Arsenal,Real Madrid,57,9,5,1,Home
+Manchester United,Real Madrid,47,3,3,1,Home
+Liverpool,Tottenham Hotspur,60,7,4,1,Home
+Real Madrid,Liverpool,48,7,1,0,Home
+Arsenal,Manchester City,44,5,1,1,Draw
+Chelsea,Real Madrid,51,5,3,1,Home
+Tottenham Hotspur,Manchester United,55,1,2,0,Home
+Manchester City,Chelsea,50,7,1,3,Away
+Manchester City,Liverpool,47,6,0,0,Draw
+Tottenham Hotspur,Arsenal,57,3,0,0,Draw
+Arsenal,Real Madrid,51,10,2,4,Away
+Manchester United,Tottenham Hotspur,53,6,1,0,Home
+Barcelona,Arsenal,53,3,1,0,Home
+Manchester City,Chelsea,61,10,1,0,Home
+Manchester City,Arsenal,54,8,4,1,Home
+Arsenal,Real Madrid,43,3,0,4,Away
+Tottenham Hotspur,Arsenal,49,9,5,0,Home
+Chelsea,Tottenham Hotspur,56,10,3,1,Home
+Manchester City,Manchester United,55,6,2,2,Draw
+Chelsea,Real Madrid,54,9,1,0,Home
+Arsenal,Manchester United,54,6,0,0,Draw
+Chelsea,Real Madrid,41,3,2,0,Home
+Manchester City,Chelsea,57,6,3,0,Home
+Arsenal,Chelsea,55,5,4,0,Home
+Tottenham Hotspur,Manchester City,55,5,0,0,Draw
+Tottenham Hotspur,Liverpool,49,3,2,1,Home
+Chelsea,Tottenham Hotspur,54,7,1,1,Draw
+Arsenal,Tottenham Hotspur,48,2,1,1,Draw
+Manchester City,Arsenal,55,6,0,2,Away
+Liverpool,Arsenal,51,7,3,4,Away
+Chelsea,Manchester City,43,2,0,1,Away
+Barcelona,Chelsea,48,7,3,4,Away
+Arsenal,Tottenham Hotspur,49,10,1,1,Draw
+Chelsea,Tottenham Hotspur,53,7,3,0,Home
+Tottenham Hotspur,Real Madrid,39,3,0,0,Draw
+Manchester United,Manchester City,47,5,1,1,Draw
+Manchester United,Real Madrid,47,2,1,1,Draw
+Tottenham Hotspur,Chelsea,44,5,0,0,Draw
+Arsenal,Manchester United,43,6,4,0,Home
+Chelsea,Arsenal,57,7,1,0,Home
+Tottenham Hotspur,Manchester City,46,3,1,0,Home
+Barcelona,Chelsea,43,3,1,2,Away
+Barcelona,Manchester City,44,5,0,1,Away
+Arsenal,Manchester City,47,10,2,1,Home
+Chelsea,Tottenham Hotspur,51,6,1,0,Home
+Arsenal,Tottenham Hotspur,56,7,5,0,Home
+Real Madrid,Arsenal,56,7,0,1,Away
+Real Madrid,Liverpool,51,6,1,1,Draw
+Chelsea,Manchester City,42,5,2,1,Home
+Barcelona,Manchester United,58,8,2,1,Home
+Manchester United,Real Madrid,58,14,3,0,Home
+Manchester City,Barcelona,49,3,3,2,Home
+Liverpool,Real Madrid,50,3,1,0,Home
+Real Madrid,Arsenal,54,9,2,2,Draw
+Manchester City,Chelsea,48,6,0,4,Away
+Real Madrid,Arsenal,60,5,0,1,Away
+Barcelona,Arsenal,42,5,1,0,Home
+Arsenal,Barcelona,53,2,0,0,Draw
+Manchester United,Tottenham Hotspur,57,2,2,2,Draw
+Manchester City,Tottenham Hotspur,60,3,0,2,Away
+Arsenal,Real Madrid,56,6,4,0,Home
+Tottenham Hotspur,Manchester United,51,6,1,2,Away
+Arsenal,Chelsea,53,7,2,0,Home
+Liverpool,Chelsea,52,6,3,1,Home
+Manchester United,Tottenham Hotspur,49,2,0,1,Away
+Arsenal,Barcelona,51,2,1,1,Draw
+Liverpool,Arsenal,47,3,3,3,Draw
+Manchester City,Real Madrid,52,7,1,4,Away
+Arsenal,Real Madrid,46,1,0,0,Draw
+Chelsea,Manchester City,46,5,1,1,Draw
+Tottenham Hotspur,Real Madrid,48,3,1,1,Draw
+Liverpool,Arsenal,55,4,0,1,Away
+Manchester United,Arsenal,56,7,3,2,Home
+Tottenham Hotspur,Chelsea,49,5,0,1,Away
+Manchester United,Barcelona,39,5,1,0,Home
+Tottenham Hotspur,Real Madrid,46,3,1,2,Away
+Arsenal,Manchester City,37,7,2,3,Away
+Manchester United,Manchester City,46,8,1,0,Home
+Manchester City,Manchester United,46,10,2,3,Away
+Barcelona,Real Madrid,51,8,2,1,Home
+Manchester City,Real Madrid,51,6,1,2,Away
+Liverpool,Manchester City,39,2,1,1,Draw
+Barcelona,Arsenal,50,6,1,1,Draw
+Liverpool,Barcelona,56,5,1,0,Home
+Real Madrid,Manchester City,48,9,3,1,Home
+Chelsea,Tottenham Hotspur,60,4,0,2,Away
+Arsenal,Chelsea,46,4,1,2,Away
+Tottenham Hotspur,Chelsea,41,4,2,2,Draw
+Barcelona,Manchester United,47,5,0,3,Away
+Chelsea,Manchester City,35,2,1,1,Draw
+Manchester City,Liverpool,54,7,1,1,Draw
+Manchester United,Arsenal,43,4,1,1,Draw
+Chelsea,Arsenal,45,5,2,2,Draw
+Chelsea,Manchester United,63,4,2,2,Draw
+Manchester City,Tottenham Hotspur,48,1,2,2,Draw
+Manchester United,Manchester City,38,1,1,0,Home
+Manchester City,Manchester United,50,7,1,0,Home
+Tottenham Hotspur,Manchester United,44,3,2,1,Home
+Chelsea,Liverpool,39,4,2,2,Draw
+Barcelona,Manchester City,59,8,1,0,Home
+Liverpool,Tottenham Hotspur,55,8,0,2,Away
+Barcelona,Manchester City,55,10,2,0,Home
+Barcelona,Real Madrid,49,3,0,4,Away
+Real Madrid,Manchester City,53,9,1,1,Draw
+Manchester City,Manchester United,59,9,2,1,Home
+Real Madrid,Liverpool,56,3,1,4,Away
+Real Madrid,Chelsea,51,8,1,0,Home
+Barcelona,Real Madrid,48,2,3,1,Home
+Manchester United,Tottenham Hotspur,50,6,4,0,Home
+Manchester City,Manchester United,54,10,2,0,Home
+Real Madrid,Tottenham Hotspur,53,2,0,1,Away
+Tottenham Hotspur,Real Madrid,33,0,1,0,Home
+Manchester City,Barcelona,54,4,1,3,Away
+Chelsea,Manchester City,44,3,2,0,Home
+Barcelona,Manchester City,36,3,2,2,Draw
+Real Madrid,Manchester City,45,3,1,0,Home
+Arsenal,Chelsea,52,8,3,1,Home
+Chelsea,Real Madrid,41,3,1,0,Home
+Manchester City,Chelsea,54,3,1,0,Home
+Manchester City,Manchester United,56,9,1,3,Away
+Manchester United,Barcelona,41,2,1,4,Away
+Chelsea,Manchester City,41,2,1,2,Away
+Real Madrid,Chelsea,55,7,0,4,Away
+Barcelona,Manchester City,47,5,1,1,Draw
+Real Madrid,Manchester United,51,4,1,0,Home
+Liverpool,Chelsea,58,6,0,0,Draw
+Manchester United,Chelsea,41,6,3,1,Home
+Arsenal,Real Madrid,43,7,2,1,Home
+Barcelona,Liverpool,53,2,0,1,Away
+Real Madrid,Tottenham Hotspur,50,9,2,3,Away
+Barcelona,Manchester City,44,5,3,0,Home
+Chelsea,Liverpool,44,6,2,0,Home
+Chelsea,Manchester United,50,2,0,0,Draw
+Manchester United,Tottenham Hotspur,45,4,0,2,Away
+Tottenham Hotspur,Manchester United,54,3,3,0,Home
+Manchester United,Arsenal,44,2,3,1,Home
+Barcelona,Arsenal,48,8,1,1,Draw
+Liverpool,Manchester United,52,6,0,1,Away
+Manchester City,Real Madrid,48,10,3,1,Home
+Liverpool,Manchester United,57,3,2,1,Home
+Manchester City,Tottenham Hotspur,66,6,1,1,Draw
+Chelsea,Barcelona,46,4,0,1,Away
+Manchester City,Arsenal,53,11,2,0,Home
+Chelsea,Arsenal,51,9,1,0,Home
+Manchester United,Arsenal,51,3,2,1,Home
+Manchester City,Chelsea,41,6,1,3,Away
+Tottenham Hotspur,Liverpool,48,5,1,7,Away
+Chelsea,Tottenham Hotspur,43,4,3,0,Home
+Tottenham Hotspur,Manchester City,53,6,4,1,Home
+Arsenal,Chelsea,51,6,2,0,Home
+Liverpool,Tottenham Hotspur,56,6,1,1,Draw
+Arsenal,Chelsea,54,7,0,1,Away
+Tottenham Hotspur,Real Madrid,45,3,0,3,Away
+Manchester City,Manchester United,51,4,2,0,Home
+Barcelona,Arsenal,46,6,2,0,Home
+Manchester City,Manchester United,54,3,2,3,Away
+Chelsea,Arsenal,47,9,3,0,Home
+Arsenal,Manchester City,43,4,0,4,Away
+Tottenham Hotspur,Manchester United,44,5,1,1,Draw
+Chelsea,Liverpool,40,8,0,2,Away
+Arsenal,Manchester City,45,3,0,2,Away
+Barcelona,Real Madrid,50,7,1,1,Draw
+Arsenal,Barcelona,53,3,0,3,Away
+Manchester United,Tottenham Hotspur,49,8,4,1,Home
+Arsenal,Tottenham Hotspur,59,7,1,1,Draw
+Manchester City,Barcelona,49,9,7,1,Home
+Arsenal,Manchester United,61,4,1,2,Away
+Manchester City,Tottenham Hotspur,54,7,0,2,Away
+Liverpool,Barcelona,53,6,3,2,Home
+Arsenal,Barcelona,41,2,1,0,Home
+Chelsea,Tottenham Hotspur,54,8,1,6,Away
+Tottenham Hotspur,Manchester City,50,7,4,0,Home
+Arsenal,Barcelona,51,9,1,3,Away
+Barcelona,Liverpool,55,8,0,4,Away
+Manchester United,Barcelona,43,3,0,1,Away
+Real Madrid,Barcelona,50,3,1,0,Home
+Arsenal,Manchester United,52,6,2,0,Home
+Manchester United,Liverpool,41,10,3,2,Home
+Liverpool,Tottenham Hotspur,64,8,4,0,Home
+Arsenal,Manchester City,55,7,0,3,Away
+Barcelona,Arsenal,50,4,1,1,Draw
+Real Madrid,Arsenal,46,6,0,1,Away
+Manchester United,Barcelona,45,2,0,0,Draw
+Manchester City,Tottenham Hotspur,57,9,3,0,Home
+Liverpool,Arsenal,54,9,3,0,Home
+Manchester United,Real Madrid,46,5,1,1,Draw
+Tottenham Hotspur,Arsenal,38,8,4,0,Home
+Liverpool,Chelsea,53,5,2,0,Home
+Liverpool,Manchester United,59,10,2,2,Draw
+Arsenal,Liverpool,48,4,0,2,Away
+Manchester United,Liverpool,38,6,3,1,Home
+Chelsea,Tottenham Hotspur,54,5,1,3,Away
+Chelsea,Tottenham Hotspur,55,6,1,0,Home
+Manchester City,Liverpool,40,3,1,3,Away
+Real Madrid,Arsenal,53,8,0,2,Away
+Liverpool,Manchester City,55,9,1,1,Draw
+Liverpool,Real Madrid,48,5,0,0,Draw
+Liverpool,Chelsea,52,7,1,1,Draw
+Manchester United,Manchester City,45,7,2,1,Home
+Tottenham Hotspur,Real Madrid,42,4,1,0,Home
+Real Madrid,Barcelona,47,3,0,1,Away
+Chelsea,Liverpool,39,7,2,2,Draw
+Liverpool,Real Madrid,53,7,3,0,Home
+Manchester City,Chelsea,45,10,1,1,Draw
+Manchester United,Real Madrid,41,4,1,0,Home
+Barcelona,Manchester City,53,4,1,2,Away
+Chelsea,Real Madrid,41,8,3,0,Home
+Barcelona,Liverpool,53,5,2,0,Home
+Arsenal,Real Madrid,53,7,2,1,Home
+Chelsea,Manchester City,46,8,2,0,Home
+Manchester United,Tottenham Hotspur,48,5,0,1,Away
+Chelsea,Barcelona,39,3,0,4,Away
+Tottenham Hotspur,Liverpool,42,7,2,2,Draw
+Manchester City,Real Madrid,49,5,2,1,Home
+Arsenal,Liverpool,46,3,1,1,Draw
+Real Madrid,Tottenham Hotspur,50,5,1,2,Away
+Tottenham Hotspur,Manchester United,51,6,2,0,Home
+Manchester City,Liverpool,38,5,2,0,Home
+Liverpool,Arsenal,59,5,1,0,Home
+Arsenal,Manchester United,55,4,0,0,Draw
+Manchester City,Arsenal,53,5,1,0,Home
+Real Madrid,Liverpool,43,6,2,0,Home
+Tottenham Hotspur,Chelsea,49,4,0,1,Away
+Manchester City,Chelsea,57,8,1,2,Away
+Chelsea,Liverpool,47,3,0,2,Away
+Manchester United,Tottenham Hotspur,50,5,0,1,Away
+Real Madrid,Manchester United,56,2,2,0,Home
+Chelsea,Liverpool,58,6,4,0,Home
+Real Madrid,Manchester United,50,6,1,1,Draw
+Tottenham Hotspur,Arsenal,43,4,0,2,Away
+Tottenham Hotspur,Barcelona,56,7,3,1,Home
+Manchester City,Tottenham Hotspur,56,6,0,1,Away
+Arsenal,Barcelona,45,10,6,1,Home
+Arsenal,Tottenham Hotspur,47,6,3,3,Draw
+Real Madrid,Liverpool,52,7,0,0,Draw
+Real Madrid,Tottenham Hotspur,59,10,3,2,Home
+Arsenal,Barcelona,40,8,3,0,Home
+Liverpool,Manchester City,47,4,1,0,Home
+Real Madrid,Tottenham Hotspur,61,6,2,1,Home
+Real Madrid,Tottenham Hotspur,53,3,0,1,Away
+Liverpool,Arsenal,43,6,1,0,Home
+Arsenal,Chelsea,45,5,5,0,Home
+Manchester United,Liverpool,40,4,0,1,Away
+Arsenal,Manchester City,41,4,1,1,Draw
+Real Madrid,Barcelona,48,8,2,0,Home
+Tottenham Hotspur,Chelsea,54,7,1,1,Draw
+Barcelona,Chelsea,52,3,1,0,Home
+Chelsea,Arsenal,45,7,4,1,Home
+Barcelona,Real Madrid,47,8,0,4,Away
+Liverpool,Tottenham Hotspur,46,5,1,1,Draw
+Manchester City,Liverpool,54,11,3,2,Home
+Tottenham Hotspur,Manchester United,43,5,3,2,Home
+Chelsea,Tottenham Hotspur,48,5,1,2,Away
+Arsenal,Manchester City,48,4,1,1,Draw
+Chelsea,Manchester City,53,6,2,0,Home
+Manchester United,Barcelona,48,3,1,0,Home
+Chelsea,Barcelona,53,3,0,0,Draw
+Manchester City,Chelsea,53,12,4,0,Home
+Real Madrid,Tottenham Hotspur,54,6,1,2,Away
+Chelsea,Tottenham Hotspur,53,5,0,0,Draw
+Real Madrid,Chelsea,51,2,0,4,Away
+Real Madrid,Manchester City,56,9,2,1,Home
+Liverpool,Tottenham Hotspur,60,6,0,1,Away
+Manchester United,Real Madrid,41,5,2,2,Draw
+Manchester City,Real Madrid,57,9,3,1,Home
+Real Madrid,Manchester City,51,5,4,0,Home
+Liverpool,Real Madrid,45,2,1,2,Away
+Barcelona,Manchester United,57,11,2,1,Home
+Chelsea,Real Madrid,45,3,2,0,Home
+Manchester City,Chelsea,48,3,3,1,Home
+Liverpool,Real Madrid,50,7,1,0,Home
+Barcelona,Tottenham Hotspur,63,11,4,0,Home
+Tottenham Hotspur,Real Madrid,35,4,0,0,Draw
+Barcelona,Arsenal,47,9,2,0,Home
+Real Madrid,Barcelona,48,4,3,0,Home
+Barcelona,Manchester City,42,7,1,2,Away
+Barcelona,Chelsea,49,8,1,1,Draw
+Arsenal,Real Madrid,52,4,2,3,Away
+Chelsea,Real Madrid,54,2,0,0,Draw
+Arsenal,Real Madrid,35,4,0,0,Draw
+Barcelona,Tottenham Hotspur,50,8,5,2,Home
+Chelsea,Liverpool,39,5,1,0,Home
+Barcelona,Manchester United,52,7,0,2,Away
+Arsenal,Manchester City,48,6,0,2,Away
+Arsenal,Liverpool,45,3,0,0,Draw
+Tottenham Hotspur,Arsenal,44,7,5,0,Home
+Manchester City,Barcelona,55,5,2,0,Home
+Liverpool,Manchester City,51,6,2,3,Away
+Real Madrid,Tottenham Hotspur,58,7,2,0,Home
+Liverpool,Tottenham Hotspur,56,6,3,1,Home
+Chelsea,Manchester United,56,10,0,2,Away
+Real Madrid,Chelsea,59,5,1,0,Home
+Tottenham Hotspur,Arsenal,45,9,2,0,Home
+Barcelona,Chelsea,54,7,4,1,Home
+Manchester United,Manchester City,51,6,0,1,Away
+Real Madrid,Chelsea,46,4,0,1,Away
+Manchester United,Real Madrid,44,7,3,4,Away
+Real Madrid,Chelsea,53,7,3,0,Home
+Manchester United,Liverpool,49,6,5,0,Home
+Arsenal,Real Madrid,46,6,3,0,Home
+Real Madrid,Barcelona,56,4,3,3,Draw
+Real Madrid,Arsenal,54,5,1,0,Home
+Chelsea,Barcelona,47,4,0,1,Away
+Chelsea,Liverpool,44,5,1,3,Away
+Real Madrid,Chelsea,52,5,2,1,Home
+Manchester United,Chelsea,47,8,2,1,Home
+Tottenham Hotspur,Barcelona,44,4,2,0,Home
+Real Madrid,Tottenham Hotspur,53,5,1,2,Away
+Liverpool,Real Madrid,53,3,1,0,Home
+Barcelona,Manchester City,46,0,1,0,Home
+Manchester United,Chelsea,52,7,0,0,Draw
+Manchester United,Barcelona,46,3,1,1,Draw
+Real Madrid,Manchester City,46,6,2,0,Home
+Barcelona,Manchester City,48,7,2,1,Home
+Manchester United,Liverpool,40,5,1,2,Away
+Real Madrid,Liverpool,49,11,2,0,Home
+Chelsea,Barcelona,53,6,1,2,Away
+Tottenham Hotspur,Liverpool,33,3,1,3,Away
+Real Madrid,Liverpool,45,7,1,2,Away
+Real Madrid,Liverpool,55,5,2,0,Home
+Manchester City,Chelsea,50,5,1,1,Draw
+Manchester United,Tottenham Hotspur,53,8,3,2,Home
+Manchester United,Liverpool,46,2,0,3,Away
+Chelsea,Tottenham Hotspur,56,8,2,0,Home
+Manchester City,Real Madrid,41,6,1,1,Draw
+Manchester United,Real Madrid,39,1,0,3,Away
+Manchester United,Manchester City,37,1,2,5,Away
+Chelsea,Real Madrid,54,4,2,0,Home
+Manchester United,Arsenal,51,4,1,0,Home
+Liverpool,Manchester City,56,2,0,3,Away
+Liverpool,Chelsea,50,4,0,0,Draw
+Manchester City,Arsenal,49,9,1,2,Away
+Chelsea,Barcelona,42,5,0,1,Away
+Arsenal,Real Madrid,44,8,2,0,Home
+Tottenham Hotspur,Manchester City,46,4,2,2,Draw
+Manchester City,Real Madrid,53,3,2,2,Draw
+Liverpool,Barcelona,47,7,2,1,Home
+Manchester City,Arsenal,61,5,0,1,Away
+Manchester United,Liverpool,38,5,0,1,Away
+Real Madrid,Chelsea,57,11,4,1,Home
+Chelsea,Manchester United,55,4,2,2,Draw
+Chelsea,Manchester United,47,3,1,0,Home
+Arsenal,Real Madrid,49,4,2,1,Home
+Manchester City,Real Madrid,56,7,2,0,Home
+Manchester United,Liverpool,42,3,0,2,Away
+Real Madrid,Tottenham Hotspur,55,10,3,0,Home
+Tottenham Hotspur,Manchester United,43,4,0,3,Away
+Tottenham Hotspur,Manchester United,51,5,0,2,Away
+Real Madrid,Barcelona,52,6,0,1,Away
+Barcelona,Manchester United,49,6,1,0,Home
+Real Madrid,Liverpool,53,7,2,1,Home
+Barcelona,Tottenham Hotspur,50,5,2,2,Draw
+Liverpool,Chelsea,52,3,1,2,Away
+Liverpool,Tottenham Hotspur,63,8,1,0,Home
+Arsenal,Barcelona,48,6,1,0,Home
+Barcelona,Chelsea,51,6,2,1,Home
+Real Madrid,Barcelona,59,9,1,1,Draw
+Arsenal,Liverpool,56,10,1,0,Home
+Chelsea,Real Madrid,41,3,2,0,Home
+Manchester City,Liverpool,40,4,0,2,Away
+Barcelona,Manchester City,50,8,1,2,Away
+Barcelona,Arsenal,49,7,3,2,Home
+Real Madrid,Liverpool,50,8,3,1,Home
+Manchester United,Chelsea,55,9,4,1,Home
+Tottenham Hotspur,Manchester City,41,4,0,3,Away
+Barcelona,Manchester City,40,2,1,2,Away
+Tottenham Hotspur,Real Madrid,35,3,1,1,Draw
+Arsenal,Liverpool,49,1,0,0,Draw
+Arsenal,Barcelona,49,3,0,1,Away
+Arsenal,Barcelona,50,6,1,1,Draw
+Manchester United,Arsenal,39,4,1,1,Draw
+Chelsea,Manchester United,48,5,0,2,Away
+Chelsea,Tottenham Hotspur,45,3,1,0,Home
+Real Madrid,Chelsea,50,9,2,1,Home
+Chelsea,Tottenham Hotspur,51,4,1,0,Home
+Barcelona,Tottenham Hotspur,49,4,1,0,Home
+Barcelona,Chelsea,54,7,2,0,Home
+Manchester United,Barcelona,41,5,0,0,Draw
+Arsenal,Manchester City,48,3,0,4,Away
+Real Madrid,Tottenham Hotspur,50,6,2,2,Draw
+Chelsea,Liverpool,45,4,1,0,Home
+Tottenham Hotspur,Chelsea,53,6,0,2,Away
+Tottenham Hotspur,Chelsea,52,5,0,0,Draw
+Tottenham Hotspur,Liverpool,41,7,3,1,Home
+Barcelona,Liverpool,46,8,2,1,Home
+Arsenal,Liverpool,58,7,2,1,Home
+Chelsea,Manchester United,55,6,2,0,Home
+Chelsea,Liverpool,40,6,2,0,Home
+Manchester City,Tottenham Hotspur,46,5,0,2,Away
+Liverpool,Manchester City,46,5,2,1,Home
+Chelsea,Tottenham Hotspur,63,7,3,1,Home
+Barcelona,Liverpool,51,5,1,1,Draw
+Arsenal,Manchester United,52,4,0,1,Away
+Chelsea,Liverpool,47,5,1,1,Draw
+Chelsea,Liverpool,42,6,0,3,Away
+Liverpool,Barcelona,53,3,2,1,Home
+Manchester United,Tottenham Hotspur,57,4,0,0,Draw
+Liverpool,Barcelona,62,6,0,0,Draw
+Manchester United,Barcelona,39,6,1,1,Draw
+Arsenal,Tottenham Hotspur,51,7,3,1,Home
+Liverpool,Tottenham Hotspur,48,2,1,1,Draw
+Barcelona,Manchester United,50,2,0,1,Away
+Manchester United,Arsenal,47,5,3,2,Home
+Arsenal,Chelsea,48,4,0,0,Draw
+Barcelona,Chelsea,48,4,3,0,Home
+Tottenham Hotspur,Manchester City,45,4,2,1,Home
+Manchester United,Liverpool,42,5,1,3,Away
+Barcelona,Manchester United,53,8,3,0,Home
+Manchester City,Chelsea,50,4,1,2,Away
+Barcelona,Manchester United,51,10,2,1,Home
+Manchester United,Manchester City,48,4,1,0,Home
+Liverpool,Real Madrid,47,6,1,1,Draw
+Arsenal,Manchester United,42,7,4,2,Home
+Chelsea,Manchester United,43,5,0,3,Away
+Real Madrid,Arsenal,47,5,0,2,Away
+Chelsea,Real Madrid,54,8,2,0,Home
+Real Madrid,Chelsea,60,9,2,2,Draw
+Barcelona,Liverpool,49,5,0,0,Draw
+Real Madrid,Liverpool,47,7,2,1,Home
+Manchester United,Arsenal,44,1,0,0,Draw
+Manchester City,Real Madrid,65,7,1,2,Away
+Chelsea,Tottenham Hotspur,52,7,3,3,Draw
+Chelsea,Liverpool,49,2,1,2,Away
+Manchester City,Barcelona,48,4,0,2,Away
+Chelsea,Manchester City,48,5,0,0,Draw
+Manchester City,Barcelona,54,4,1,1,Draw
+Manchester United,Chelsea,48,11,3,2,Home
+Barcelona,Tottenham Hotspur,54,4,2,1,Home
+Barcelona,Liverpool,47,5,2,0,Home
+Manchester United,Manchester City,38,6,1,1,Draw
+Arsenal,Tottenham Hotspur,47,4,0,0,Draw
+Arsenal,Tottenham Hotspur,52,4,0,1,Away
+Barcelona,Manchester United,48,6,3,2,Home
+Chelsea,Liverpool,42,6,3,0,Home
+Chelsea,Barcelona,52,3,0,1,Away
+Manchester City,Arsenal,56,4,0,4,Away
+Chelsea,Tottenham Hotspur,45,2,1,1,Draw
+Liverpool,Barcelona,50,9,3,0,Home
+Liverpool,Manchester United,61,11,2,0,Home
+Manchester United,Manchester City,47,7,4,1,Home
+Arsenal,Barcelona,57,8,0,0,Draw
+Arsenal,Chelsea,48,4,1,3,Away
+Manchester City,Chelsea,60,6,2,1,Home
+Arsenal,Tottenham Hotspur,54,4,2,1,Home
+Real Madrid,Liverpool,49,4,0,0,Draw
+Barcelona,Chelsea,50,3,0,3,Away
+Manchester City,Arsenal,57,11,2,1,Home
+Manchester United,Chelsea,52,3,1,0,Home
+Tottenham Hotspur,Arsenal,48,5,3,2,Home
+Arsenal,Manchester United,48,4,0,1,Away
+Manchester City,Barcelona,56,6,1,1,Draw
+Manchester United,Real Madrid,55,7,3,1,Home
+Arsenal,Barcelona,47,5,2,1,Home
+Manchester United,Real Madrid,49,6,1,1,Draw
+Liverpool,Chelsea,60,6,1,0,Home
+Barcelona,Liverpool,48,5,3,0,Home
+Liverpool,Arsenal,56,10,4,0,Home
+Real Madrid,Tottenham Hotspur,46,6,2,1,Home
+Barcelona,Manchester United,56,6,2,2,Draw
+Barcelona,Liverpool,46,3,2,2,Draw
+Real Madrid,Liverpool,48,7,4,1,Home
+Tottenham Hotspur,Barcelona,46,5,0,0,Draw
+Manchester City,Real Madrid,44,6,2,0,Home
+Liverpool,Barcelona,55,4,1,2,Away
+Real Madrid,Tottenham Hotspur,51,8,2,1,Home
+Barcelona,Liverpool,45,4,2,0,Home
+Real Madrid,Barcelona,50,6,6,3,Home
+Manchester United,Chelsea,52,9,3,1,Home
+Manchester City,Liverpool,49,3,0,2,Away
+Arsenal,Liverpool,63,4,1,0,Home
+Manchester City,Real Madrid,56,2,3,2,Home
+Real Madrid,Barcelona,56,9,3,0,Home
+Manchester United,Tottenham Hotspur,55,8,0,1,Away
+Barcelona,Chelsea,64,9,2,0,Home
+Manchester United,Manchester City,47,6,2,1,Home
+Tottenham Hotspur,Arsenal,44,2,1,1,Draw
+Barcelona,Tottenham Hotspur,54,10,2,1,Home
+Barcelona,Real Madrid,40,5,3,2,Home
+Manchester United,Manchester City,45,6,2,4,Away
+Arsenal,Barcelona,49,8,3,0,Home
+Liverpool,Barcelona,54,10,0,0,Draw
+Barcelona,Tottenham Hotspur,45,3,1,1,Draw
+Barcelona,Manchester United,58,4,2,1,Home
+Manchester United,Tottenham Hotspur,54,6,1,0,Home
+Chelsea,Tottenham Hotspur,45,4,2,4,Away
+Liverpool,Barcelona,45,9,1,1,Draw
+Manchester United,Arsenal,47,6,1,2,Away
+Real Madrid,Manchester United,52,7,2,2,Draw
+Chelsea,Real Madrid,38,3,0,0,Draw
+Manchester City,Chelsea,44,8,3,2,Home
+Manchester City,Tottenham Hotspur,48,4,1,2,Away
+Liverpool,Chelsea,48,6,0,1,Away
+Arsenal,Barcelona,49,5,2,1,Home
+Arsenal,Chelsea,58,5,1,1,Draw
+Barcelona,Chelsea,48,6,1,2,Away
+Chelsea,Barcelona,45,2,1,1,Draw
+Liverpool,Chelsea,52,6,3,2,Home
+Chelsea,Arsenal,42,6,1,1,Draw
+Liverpool,Real Madrid,47,4,0,0,Draw
+Manchester City,Liverpool,53,7,0,1,Away
+Real Madrid,Liverpool,54,5,2,3,Away
+Arsenal,Real Madrid,42,6,1,1,Draw
+Manchester United,Liverpool,43,8,4,2,Home
+Arsenal,Real Madrid,47,7,0,1,Away
+Barcelona,Real Madrid,52,7,0,1,Away
+Liverpool,Chelsea,56,6,1,0,Home
+Barcelona,Liverpool,44,4,0,1,Away
+Tottenham Hotspur,Arsenal,47,7,4,0,Home
+Real Madrid,Chelsea,48,3,2,2,Draw
+Tottenham Hotspur,Real Madrid,55,1,0,1,Away
+Chelsea,Tottenham Hotspur,47,6,2,1,Home
+Chelsea,Arsenal,42,3,3,0,Home
+Real Madrid,Manchester City,41,5,1,1,Draw
+Real Madrid,Manchester United,58,9,0,0,Draw
+Tottenham Hotspur,Barcelona,44,1,2,1,Home
+Barcelona,Tottenham Hotspur,51,8,0,3,Away
+Real Madrid,Chelsea,52,7,4,1,Home
+Liverpool,Chelsea,57,6,2,0,Home
+Manchester United,Manchester City,42,6,1,2,Away
+Tottenham Hotspur,Real Madrid,39,2,2,1,Home
+Manchester City,Real Madrid,52,5,2,0,Home
+Barcelona,Manchester United,58,11,4,0,Home
+Barcelona,Manchester United,56,6,3,1,Home
+Liverpool,Chelsea,52,7,3,1,Home
+Liverpool,Manchester United,55,4,2,0,Home
+Barcelona,Real Madrid,40,6,1,0,Home
+Arsenal,Liverpool,37,7,2,1,Home
+Real Madrid,Tottenham Hotspur,56,3,2,1,Home
+Manchester City,Real Madrid,48,8,1,1,Draw
+Tottenham Hotspur,Real Madrid,35,1,1,3,Away
+Real Madrid,Liverpool,50,6,1,0,Home
+Barcelona,Real Madrid,47,5,0,2,Away
+Manchester United,Arsenal,51,6,5,0,Home
+Manchester City,Barcelona,52,10,7,3,Home
+Arsenal,Manchester City,40,2,0,3,Away
+Manchester City,Chelsea,54,8,3,0,Home
+Manchester City,Real Madrid,35,7,2,3,Away
+Manchester City,Chelsea,54,9,3,0,Home
+Liverpool,Tottenham Hotspur,56,2,1,0,Home
+Arsenal,Manchester United,55,1,1,0,Home
+Manchester United,Liverpool,54,4,2,1,Home
+Manchester United,Liverpool,46,6,5,0,Home
+Tottenham Hotspur,Liverpool,43,5,0,2,Away
+Real Madrid,Manchester City,43,10,3,1,Home
+Chelsea,Arsenal,51,5,2,1,Home
+Real Madrid,Arsenal,50,6,1,4,Away
+Liverpool,Manchester City,53,11,3,0,Home
+Liverpool,Manchester United,55,5,3,0,Home
+Real Madrid,Arsenal,55,5,4,1,Home
+Chelsea,Barcelona,47,4,0,1,Away
+Liverpool,Manchester City,53,7,1,0,Home
+Barcelona,Tottenham Hotspur,48,8,3,1,Home
+Arsenal,Chelsea,54,8,3,1,Home
+Arsenal,Tottenham Hotspur,49,5,1,1,Draw
+Manchester United,Real Madrid,44,4,2,2,Draw
+Barcelona,Liverpool,44,4,2,2,Draw
+Liverpool,Manchester United,54,7,4,1,Home
+Barcelona,Liverpool,54,5,2,1,Home
+Arsenal,Tottenham Hotspur,62,3,0,0,Draw
+Real Madrid,Tottenham Hotspur,55,6,1,2,Away
+Arsenal,Chelsea,51,5,2,1,Home
+Arsenal,Manchester City,42,1,1,1,Draw
+Real Madrid,Barcelona,47,7,2,2,Draw
+Barcelona,Manchester United,56,11,7,2,Home
+Chelsea,Barcelona,54,3,2,4,Away
+Tottenham Hotspur,Arsenal,59,3,1,0,Home
+Arsenal,Tottenham Hotspur,53,9,1,2,Away
+Arsenal,Manchester United,55,8,2,0,Home
+Real Madrid,Liverpool,48,3,1,2,Away
+Manchester United,Arsenal,51,5,2,2,Draw
+Manchester United,Arsenal,47,8,3,2,Home
+Barcelona,Real Madrid,46,8,2,1,Home
+Arsenal,Real Madrid,54,6,4,0,Home
+Chelsea,Arsenal,54,9,2,2,Draw
+Tottenham Hotspur,Manchester City,51,5,1,0,Home
+Chelsea,Arsenal,40,3,1,3,Away
+Arsenal,Tottenham Hotspur,48,6,2,1,Home
+Liverpool,Tottenham Hotspur,51,8,1,1,Draw
+Manchester City,Tottenham Hotspur,52,2,1,0,Home
+Manchester United,Liverpool,49,2,0,0,Draw
+Barcelona,Manchester United,51,8,3,1,Home
+Tottenham Hotspur,Barcelona,47,6,4,0,Home
+Liverpool,Manchester United,53,1,0,1,Away
+Arsenal,Liverpool,52,9,4,1,Home
+Real Madrid,Manchester City,48,7,2,0,Home
+Chelsea,Manchester City,45,2,0,0,Draw
+Tottenham Hotspur,Arsenal,40,9,2,0,Home
+Arsenal,Real Madrid,47,5,0,1,Away
+Liverpool,Barcelona,60,9,3,0,Home
+Barcelona,Real Madrid,45,7,3,1,Home
+Arsenal,Tottenham Hotspur,55,4,1,3,Away
+Tottenham Hotspur,Real Madrid,41,6,2,3,Away
+Manchester City,Chelsea,54,4,0,4,Away
+Manchester City,Barcelona,51,6,4,1,Home
+Chelsea,Real Madrid,45,4,1,0,Home
+Real Madrid,Barcelona,49,2,1,3,Away
+Tottenham Hotspur,Manchester United,44,3,4,0,Home
+Real Madrid,Manchester United,59,9,0,0,Draw
+Arsenal,Barcelona,53,4,1,3,Away
+Manchester City,Chelsea,46,5,3,1,Home
+Tottenham Hotspur,Barcelona,48,3,1,0,Home
+Arsenal,Barcelona,45,4,1,2,Away
+Real Madrid,Barcelona,49,11,0,0,Draw
+Tottenham Hotspur,Manchester United,47,1,0,2,Away
+Chelsea,Barcelona,56,8,1,1,Draw
+Manchester United,Arsenal,50,4,2,0,Home
+Tottenham Hotspur,Arsenal,47,7,4,0,Home
+Chelsea,Tottenham Hotspur,43,3,2,1,Home
+Manchester City,Tottenham Hotspur,57,6,0,1,Away
+Barcelona,Tottenham Hotspur,61,12,2,0,Home
+Arsenal,Tottenham Hotspur,42,2,0,0,Draw
+Real Madrid,Manchester United,60,8,0,3,Away
+Liverpool,Manchester United,54,4,1,0,Home
+Manchester United,Liverpool,43,6,4,3,Home
+Barcelona,Manchester United,57,4,0,1,Away
+Manchester City,Barcelona,48,6,3,1,Home
+Liverpool,Chelsea,57,12,4,1,Home
+Barcelona,Liverpool,44,7,0,3,Away
+Real Madrid,Arsenal,47,9,2,1,Home
+Liverpool,Chelsea,47,4,0,0,Draw
+Manchester City,Real Madrid,60,6,2,1,Home
+Barcelona,Arsenal,56,6,2,2,Draw
+Real Madrid,Liverpool,47,4,0,0,Draw
+Manchester United,Tottenham Hotspur,49,5,0,0,Draw
+Tottenham Hotspur,Manchester City,42,7,2,1,Home
+Barcelona,Chelsea,47,6,2,1,Home
+Chelsea,Real Madrid,37,7,1,1,Draw
+Tottenham Hotspur,Manchester United,54,4,1,0,Home
+Tottenham Hotspur,Arsenal,52,11,3,2,Home
+Tottenham Hotspur,Manchester United,52,8,0,0,Draw
+Real Madrid,Liverpool,50,6,3,2,Home
+Chelsea,Manchester United,50,2,0,1,Away
+Barcelona,Manchester United,53,6,1,1,Draw
+Chelsea,Tottenham Hotspur,51,6,1,2,Away
+Manchester United,Barcelona,38,3,1,5,Away
+Tottenham Hotspur,Manchester City,37,3,0,4,Away
+Liverpool,Real Madrid,57,9,3,0,Home
+Chelsea,Manchester United,52,5,1,0,Home
+Chelsea,Arsenal,47,6,2,0,Home
+Chelsea,Real Madrid,38,4,0,1,Away
+Chelsea,Liverpool,49,4,1,3,Away
+Liverpool,Real Madrid,46,7,1,0,Home
+Manchester United,Liverpool,39,2,0,2,Away
+Liverpool,Manchester City,51,7,4,0,Home
+Arsenal,Real Madrid,42,4,4,0,Home
+Liverpool,Manchester United,55,8,2,0,Home
+Manchester United,Manchester City,50,6,0,4,Away
+Manchester United,Liverpool,43,6,1,1,Draw
+Chelsea,Arsenal,56,7,1,1,Draw
+Tottenham Hotspur,Manchester United,46,7,0,1,Away
+Liverpool,Barcelona,57,8,2,2,Draw
+Manchester United,Manchester City,40,4,2,0,Home
+Real Madrid,Arsenal,52,3,0,1,Away
+Manchester City,Tottenham Hotspur,54,9,0,0,Draw
+Manchester City,Chelsea,59,6,0,1,Away
+Barcelona,Real Madrid,50,7,1,0,Home
+Tottenham Hotspur,Arsenal,49,5,2,1,Home
+Manchester City,Chelsea,53,1,0,0,Draw
+Chelsea,Arsenal,51,2,0,0,Draw
+Manchester United,Tottenham Hotspur,51,5,2,1,Home
+Arsenal,Chelsea,56,6,4,0,Home
+Manchester United,Barcelona,45,8,4,0,Home
+Barcelona,Real Madrid,48,4,5,2,Home
+Real Madrid,Chelsea,54,5,1,2,Away
+Manchester City,Chelsea,51,4,2,0,Home
+Barcelona,Manchester United,48,6,1,1,Draw
+Manchester City,Liverpool,50,6,4,1,Home
+Liverpool,Manchester United,46,3,1,0,Home
+Liverpool,Barcelona,52,13,0,0,Draw
+Tottenham Hotspur,Chelsea,42,3,1,0,Home
+Arsenal,Chelsea,56,11,0,1,Away
+Real Madrid,Manchester United,56,10,2,1,Home
+Manchester City,Real Madrid,51,5,1,0,Home
+Chelsea,Barcelona,47,7,3,1,Home
+Barcelona,Manchester City,48,1,1,3,Away
+Real Madrid,Liverpool,46,5,0,1,Away
+Barcelona,Chelsea,52,4,1,2,Away
+Real Madrid,Tottenham Hotspur,49,3,4,0,Home
+Manchester City,Liverpool,59,5,0,1,Away
+Real Madrid,Liverpool,59,5,1,2,Away
+Arsenal,Liverpool,50,6,1,0,Home
+Liverpool,Tottenham Hotspur,56,3,3,1,Home
+Barcelona,Manchester United,60,8,0,1,Away
+Manchester City,Real Madrid,54,5,1,2,Away
+Manchester City,Manchester United,54,7,3,1,Home
+Real Madrid,Manchester United,47,4,2,1,Home
+Tottenham Hotspur,Real Madrid,39,4,1,4,Away
+Liverpool,Arsenal,47,4,1,1,Draw
+Manchester United,Arsenal,48,2,1,1,Draw
+Tottenham Hotspur,Barcelona,39,3,1,3,Away
+Manchester City,Chelsea,57,10,2,1,Home
+Tottenham Hotspur,Real Madrid,46,7,0,1,Away
+Real Madrid,Barcelona,53,2,0,2,Away
+Manchester United,Liverpool,49,5,3,0,Home
+Arsenal,Liverpool,51,6,3,1,Home
+Manchester City,Arsenal,52,6,1,2,Away
+Chelsea,Manchester City,44,5,2,0,Home
+Barcelona,Manchester City,44,5,0,2,Away
+Manchester City,Liverpool,48,6,0,1,Away
+Tottenham Hotspur,Manchester United,41,5,0,1,Away
+Arsenal,Barcelona,50,4,3,0,Home
+Chelsea,Real Madrid,51,10,4,0,Home
+Real Madrid,Barcelona,54,8,3,2,Home
+Manchester United,Arsenal,40,5,2,0,Home
+Arsenal,Manchester United,52,5,0,0,Draw
+Liverpool,Barcelona,52,6,3,0,Home
+Arsenal,Liverpool,45,7,1,0,Home
+Tottenham Hotspur,Manchester United,48,3,2,2,Draw
+Liverpool,Real Madrid,51,6,2,0,Home
+Liverpool,Arsenal,53,9,1,0,Home
+Real Madrid,Manchester United,49,5,1,0,Home
+Liverpool,Tottenham Hotspur,52,9,1,1,Draw
+Manchester United,Barcelona,41,3,0,0,Draw
+Chelsea,Barcelona,48,9,2,0,Home
+Real Madrid,Chelsea,54,2,1,0,Home
+Tottenham Hotspur,Manchester City,46,6,0,0,Draw
+Tottenham Hotspur,Liverpool,41,2,2,2,Draw
+Tottenham Hotspur,Real Madrid,42,3,6,0,Home
+Manchester City,Manchester United,63,9,2,0,Home
+Liverpool,Manchester City,43,5,0,0,Draw
+Manchester United,Tottenham Hotspur,44,7,4,1,Home
+Manchester City,Liverpool,52,5,0,0,Draw
+Barcelona,Tottenham Hotspur,60,7,1,0,Home
+Real Madrid,Chelsea,52,4,4,3,Home
+Barcelona,Chelsea,49,5,2,0,Home
+Arsenal,Manchester City,50,3,0,3,Away
+Manchester City,Liverpool,52,5,3,1,Home
+Real Madrid,Manchester United,60,5,1,1,Draw
+Arsenal,Tottenham Hotspur,64,7,0,0,Draw
+Barcelona,Arsenal,51,6,1,0,Home
+Arsenal,Manchester United,50,7,0,0,Draw
+Chelsea,Barcelona,46,12,1,0,Home
+Manchester United,Barcelona,56,6,0,0,Draw
+Chelsea,Liverpool,45,8,3,3,Draw
+Chelsea,Real Madrid,45,3,1,0,Home
+Liverpool,Real Madrid,52,4,2,1,Home
+Arsenal,Liverpool,51,2,0,1,Away
+Tottenham Hotspur,Manchester United,53,3,1,0,Home
+Manchester United,Chelsea,49,6,1,1,Draw
+Real Madrid,Manchester City,48,5,1,1,Draw
+Liverpool,Chelsea,50,10,3,5,Away
+Chelsea,Arsenal,47,2,0,1,Away
+Tottenham Hotspur,Manchester United,49,1,2,3,Away
+Real Madrid,Barcelona,58,5,2,0,Home
+Manchester United,Chelsea,45,6,0,4,Away
+Manchester United,Chelsea,40,3,1,1,Draw
+Manchester City,Real Madrid,49,3,1,2,Away
+Tottenham Hotspur,Arsenal,47,5,1,3,Away
+Real Madrid,Arsenal,50,8,2,0,Home
+Real Madrid,Tottenham Hotspur,56,7,1,2,Away
+Real Madrid,Liverpool,51,8,3,1,Home
+Manchester City,Chelsea,56,12,6,1,Home
+Manchester United,Liverpool,47,7,2,2,Draw
+Liverpool,Real Madrid,59,12,6,1,Home
+Barcelona,Real Madrid,42,5,3,0,Home
+Tottenham Hotspur,Manchester United,49,4,0,1,Away
+Real Madrid,Barcelona,51,6,0,2,Away
+Manchester City,Barcelona,50,4,1,0,Home
+Real Madrid,Arsenal,56,7,4,2,Home
+Real Madrid,Arsenal,50,6,5,2,Home
+Manchester City,Chelsea,50,8,3,1,Home
+Arsenal,Tottenham Hotspur,53,6,0,0,Draw
+Tottenham Hotspur,Manchester City,40,5,1,3,Away
+Tottenham Hotspur,Real Madrid,37,7,2,1,Home
+Liverpool,Manchester United,45,6,4,1,Home
+Manchester City,Arsenal,46,3,0,2,Away
+Chelsea,Real Madrid,43,3,1,2,Away
+Tottenham Hotspur,Liverpool,44,4,0,1,Away
+Liverpool,Manchester City,40,4,1,3,Away
+Manchester City,Barcelona,41,2,1,5,Away
+Arsenal,Manchester City,44,3,0,0,Draw
+Liverpool,Arsenal,45,3,1,1,Draw
+Liverpool,Real Madrid,48,5,0,3,Away
+Manchester City,Barcelona,55,8,1,0,Home
+Barcelona,Chelsea,53,3,2,0,Home
+Barcelona,Tottenham Hotspur,50,5,1,0,Home
+Tottenham Hotspur,Real Madrid,41,6,2,3,Away
+Tottenham Hotspur,Manchester City,54,6,1,0,Home
+Barcelona,Manchester United,51,5,4,2,Home
+Barcelona,Chelsea,56,9,2,0,Home
+Arsenal,Real Madrid,49,4,0,2,Away
+Arsenal,Barcelona,42,6,2,1,Home
+Manchester United,Liverpool,32,3,1,3,Away
+Manchester City,Liverpool,49,2,0,1,Away
+Barcelona,Chelsea,44,4,4,2,Home
+Manchester United,Barcelona,59,7,3,0,Home
+Tottenham Hotspur,Real Madrid,53,15,2,3,Away
+Arsenal,Manchester United,46,3,2,1,Home

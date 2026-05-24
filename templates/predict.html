@@ -1,0 +1,285 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<section class="predictor-section" id="predictor-dashboard">
+    <div class="section-header">
+        <h2 class="section-title">Match Predictor Dashboard</h2>
+        <p class="section-desc">Select teams, customize game parameters, and let Machine Learning predict the outcome.</p>
+    </div>
+
+    <!-- Sports Selector Tabs -->
+    <div class="tabs-container" id="sport-tabs-nav">
+        <button class="tab-btn {% if selected_sport == 'ipl' %}active{% endif %}" data-sport="ipl" id="tab-btn-ipl">
+            <i class="fa-solid fa-baseball-bat-ball"></i> IPL Cricket
+        </button>
+        <button class="tab-btn {% if selected_sport == 'football' %}active{% endif %}" data-sport="football" id="tab-btn-football">
+            <i class="fa-solid fa-futbol"></i> Football
+        </button>
+        <button class="tab-btn {% if selected_sport == 'nba' %}active{% endif %}" data-sport="nba" id="tab-btn-nba">
+            <i class="fa-solid fa-basketball"></i> NBA Basketball
+        </button>
+    </div>
+
+    <div class="predictor-grid">
+        <!-- Form Container -->
+        <div class="predictor-card card-form">
+            <form id="prediction-form">
+                <input type="hidden" name="sport" id="sport-input" value="{{ selected_sport }}">
+
+                <!-- ==========================================
+                     IPL FORM FIELDS
+                     ========================================== -->
+                <div class="sport-form-fields {% if selected_sport != 'ipl' %}hidden{% endif %}" id="fields-ipl">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="ipl-team1">Select Team 1</label>
+                            <select id="ipl-team1" name="team1" class="form-control team-select">
+                                <option value="" disabled selected>Choose Team 1</option>
+                                {% for team in ipl_teams %}
+                                <option value="{{ team }}">{{ team }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="ipl-team2">Select Team 2</label>
+                            <select id="ipl-team2" name="team2" class="form-control team-select">
+                                <option value="" disabled selected>Choose Team 2</option>
+                                {% for team in ipl_teams %}
+                                <option value="{{ team }}">{{ team }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="ipl-toss">Toss Winner</label>
+                            <select id="ipl-toss" name="toss_winner" class="form-control">
+                                <option value="" disabled selected>Choose Toss Winner</option>
+                                <!-- Populated dynamically by JS based on selected teams -->
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="ipl-toss-decision">Toss Decision</label>
+                            <select id="ipl-toss-decision" name="toss_decision" class="form-control">
+                                <option value="field" selected>Field First</option>
+                                <option value="bat">Bat First</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ipl-venue">Match Venue</label>
+                        <select id="ipl-venue" name="venue" class="form-control">
+                            {% for venue in venues %}
+                            <option value="{{ venue }}">{{ venue }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+
+                <!-- ==========================================
+                     FOOTBALL FORM FIELDS
+                     ========================================== -->
+                <div class="sport-form-fields {% if selected_sport != 'football' %}hidden{% endif %}" id="fields-football">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fb-home">Home Team</label>
+                            <select id="fb-home" name="home_team" class="form-control team-select">
+                                <option value="" disabled selected>Choose Home Team</option>
+                                {% for team in football_teams %}
+                                <option value="{{ team }}">{{ team }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="fb-away">Away Team</label>
+                            <select id="fb-away" name="away_team" class="form-control team-select">
+                                <option value="" disabled selected>Choose Away Team</option>
+                                {% for team in football_teams %}
+                                <option value="{{ team }}">{{ team }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="stats-helper-box hidden" id="fb-stats-loading-box">
+                        <i class="fa-solid fa-circle-notch fa-spin"></i> Preloading historical average stats...
+                    </div>
+
+                    <div class="form-group slider-group">
+                        <div class="slider-header">
+                            <label for="fb-possession">Expected Home Possession (%)</label>
+                            <span class="slider-value" id="fb-possession-val">50%</span>
+                        </div>
+                        <input type="range" id="fb-possession" name="possession" min="20" max="80" value="50" class="form-slider">
+                    </div>
+
+                    <div class="form-group slider-group">
+                        <div class="slider-header">
+                            <label for="fb-shots">Expected Home Shots on Target</label>
+                            <span class="slider-value" id="fb-shots-val">5</span>
+                        </div>
+                        <input type="range" id="fb-shots" name="shots_on_target" min="0" max="20" value="5" class="form-slider">
+                    </div>
+                </div>
+
+                <!-- ==========================================
+                     NBA FORM FIELDS
+                     ========================================== -->
+                <div class="sport-form-fields {% if selected_sport != 'nba' %}hidden{% endif %}" id="fields-nba">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nba-home">Home Team</label>
+                            <select id="nba-home" name="home_team" class="form-control team-select">
+                                <option value="" disabled selected>Choose Home Team</option>
+                                {% for team in nba_teams %}
+                                <option value="{{ team }}">{{ team }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="nba-away">Away Team</label>
+                            <select id="nba-away" name="away_team" class="form-control team-select">
+                                <option value="" disabled selected>Choose Away Team</option>
+                                {% for team in nba_teams %}
+                                <option value="{{ team }}">{{ team }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="stats-helper-box hidden" id="nba-stats-loading-box">
+                        <i class="fa-solid fa-circle-notch fa-spin"></i> Preloading historical average stats...
+                    </div>
+
+                    <div class="form-group slider-group">
+                        <div class="slider-header">
+                            <label for="nba-rebounds">Expected Home Rebounds</label>
+                            <span class="slider-value" id="nba-rebounds-val">44</span>
+                        </div>
+                        <input type="range" id="nba-rebounds" name="rebounds" min="20" max="70" value="44" class="form-slider">
+                    </div>
+
+                    <div class="form-group slider-group">
+                        <div class="slider-header">
+                            <label for="nba-assists">Expected Home Assists</label>
+                            <span class="slider-value" id="nba-assists-val">25</span>
+                        </div>
+                        <input type="range" id="nba-assists" name="assists" min="10" max="50" value="25" class="form-slider">
+                    </div>
+
+                    <div class="form-group slider-group">
+                        <div class="slider-header">
+                            <label for="nba-shooting">Expected Home Shooting Percentage (%)</label>
+                            <span class="slider-value" id="nba-shooting-val">46.5%</span>
+                        </div>
+                        <input type="range" id="nba-shooting" name="shooting_percentage" min="30" max="70" step="0.5" value="46.5" class="form-slider">
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary btn-block" id="predict-submit-btn" disabled>
+                    <span>Run Match Prediction</span>
+                    <i class="fa-solid fa-gear"></i>
+                </button>
+            </form>
+        </div>
+
+        <!-- Result Container -->
+        <div class="predictor-card card-result hidden" id="prediction-result-card">
+            <!-- Loading Overlay -->
+            <div class="result-loading hidden" id="result-spinner">
+                <i class="fa-solid fa-circle-notch fa-spin loader-icon"></i>
+                <h3>Computing Probabilities...</h3>
+                <p>Feeding parameters into Random Forest models.</p>
+            </div>
+
+            <!-- Content when result loaded -->
+            <div id="result-content">
+                <div class="result-header">
+                    <span class="result-badge"><i class="fa-solid fa-circle-check"></i> Prediction Successful</span>
+                </div>
+
+                <!-- Winner Card -->
+                <div class="winner-display-box">
+                    <div class="winner-label">PREDICTED WINNER</div>
+                    <div class="winner-team-name" id="result-winner-team">Mumbai Indians</div>
+                    
+                    <!-- Circular win probability graph -->
+                    <div class="probability-container">
+                        <div class="probability-circle" id="prob-circle-radial">
+                            <!-- Circular SVG progress bar -->
+                            <svg class="progress-ring" width="120" height="120">
+                                <circle class="progress-ring-circle-bg" stroke="rgba(255, 255, 255, 0.05)" stroke-width="8" fill="transparent" r="50" cx="60" cy="60"/>
+                                <circle class="progress-ring-circle" id="prob-ring-indicator" stroke="#ffffff" stroke-width="8" fill="transparent" r="50" cx="60" cy="60" stroke-dasharray="314.16" stroke-dashoffset="314.16"/>
+                            </svg>
+                            <div class="probability-text">
+                                <span class="probability-number" id="result-win-prob">68.5%</span>
+                                <span class="probability-sub">Chance</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Expected Score Details -->
+                <div class="score-display-box">
+                    <h4 class="box-title" id="score-val-label">Expected Score / Runs</h4>
+                    <div class="expected-score-graphic">
+                        <div class="score-team team-left">
+                            <span class="score-team-name" id="score-team1-name">MI</span>
+                            <span class="score-value" id="score-team1-val">178</span>
+                        </div>
+                        <div class="score-separator">:</div>
+                        <div class="score-team team-right">
+                            <span class="score-value" id="score-team2-val">164</span>
+                            <span class="score-team-name" id="score-team2-name">CSK</span>
+                        </div>
+                    </div>
+                    <p class="score-desc-text" id="result-score-text">Expected Score: MI 178 runs, CSK 164 runs</p>
+                </div>
+
+                <!-- Model Stats -->
+                <div class="model-info-box">
+                    <div class="info-row">
+                        <span class="info-label">ML Model Type:</span>
+                        <span class="info-val" id="result-model-name">Random Forest Classifier</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Model Test Accuracy:</span>
+                        <span class="info-val text-accent" id="result-model-acc">78.5%</span>
+                    </div>
+                </div>
+
+                <!-- Recent Match History -->
+                <div class="history-box">
+                    <h4 class="box-title">Recent Head-to-Head History</h4>
+                    <div class="table-container">
+                        <table class="history-table">
+                            <thead>
+                                <tr>
+                                    <th>Match Details</th>
+                                    <th>Result</th>
+                                    <th>Score</th>
+                                </tr>
+                            </thead>
+                            <tbody id="result-history-rows">
+                                <!-- Populated dynamically by JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Initial Placeholder Card -->
+        <div class="predictor-card card-placeholder" id="prediction-placeholder">
+            <div class="placeholder-content">
+                <i class="fa-solid fa-chart-line placeholder-icon"></i>
+                <h3>Awaiting Inputs</h3>
+                <p>Please select the home and away teams and fill out match conditions, then click "Run Match Prediction" to generate predictions and stats.</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

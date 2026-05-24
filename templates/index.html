@@ -1,0 +1,110 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section" id="hero-landing">
+    <div class="hero-content">
+        <div class="hero-badge">
+            <i class="fa-solid fa-bolt"></i>
+            <span>Machine Learning Match Predictions</span>
+        </div>
+        <h1 class="hero-title">Predicting the Future of <br><span class="text-glow">Sports Outcomes</span></h1>
+        <p class="hero-subtitle">Utilizing Random Forest algorithms and historical sport analytics to estimate winning probabilities, expected scores, and key team statistics for IPL, Football, and NBA.</p>
+        <div class="hero-cta-buttons">
+            <a href="/predict" class="btn btn-primary btn-lg" id="hero-cta-predict">
+                <span>Launch Predictor Dashboard</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="/about" class="btn btn-secondary btn-lg" id="hero-cta-about">
+                <span>View ML Architecture</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Sports Selection Grid -->
+<section class="sports-section" id="sport-selector-section">
+    <div class="section-header">
+        <h2 class="section-title">Select a Sport to Predict</h2>
+        <p class="section-desc">Choose a sports league to load our custom-trained ML models and start analyzing matches.</p>
+    </div>
+    
+    <div class="sports-grid">
+        <!-- IPL Card -->
+        <a href="/predict?sport=ipl" class="sport-card" id="card-ipl">
+            <div class="sport-card-overlay"></div>
+            <div class="sport-card-icon">
+                <i class="fa-solid fa-baseball-bat-ball"></i>
+            </div>
+            <div class="sport-card-body">
+                <h3>IPL Cricket</h3>
+                <p>Predict match winners, runs, and analyze outcomes based on toss decisions, venues, and team rivalries.</p>
+                <div class="sport-card-footer">
+                    <span class="model-badge">Classifier & Regressor</span>
+                    <span class="btn-arrow"><i class="fa-solid fa-arrow-right-long"></i></span>
+                </div>
+            </div>
+        </a>
+
+        <!-- Football Card -->
+        <a href="/predict?sport=football" class="sport-card" id="card-football">
+            <div class="sport-card-overlay"></div>
+            <div class="sport-card-icon">
+                <i class="fa-solid fa-futbol"></i>
+            </div>
+            <div class="sport-card-body">
+                <h3>Football (Soccer)</h3>
+                <p>Estimate winning chances (Home/Away/Draw) and expected goals using possession, shots, and history.</p>
+                <div class="sport-card-footer">
+                    <span class="model-badge">Multi-Class Classifier</span>
+                    <span class="btn-arrow"><i class="fa-solid fa-arrow-right-long"></i></span>
+                </div>
+            </div>
+        </a>
+
+        <!-- NBA Card -->
+        <a href="/predict?sport=nba" class="sport-card" id="card-nba">
+            <div class="sport-card-overlay"></div>
+            <div class="sport-card-icon">
+                <i class="fa-solid fa-basketball"></i>
+            </div>
+            <div class="sport-card-body">
+                <h3>NBA Basketball</h3>
+                <p>Forecast winner and final team score based on shooting percentage, assists, and rebounds.</p>
+                <div class="sport-card-footer">
+                    <span class="model-badge">Random Forest Regressor</span>
+                    <span class="btn-arrow"><i class="fa-solid fa-arrow-right-long"></i></span>
+                </div>
+            </div>
+        </a>
+    </div>
+</section>
+
+<!-- ML Workflow Overview -->
+<section class="workflow-section" id="quick-workflow">
+    <div class="section-header">
+        <h2 class="section-title">How It Works</h2>
+        <p class="section-desc">The pipeline from historical raw data to live web-based prediction.</p>
+    </div>
+    
+    <div class="workflow-steps">
+        <div class="step-item" id="step-1">
+            <div class="step-number">01</div>
+            <h4>Historical Datasets</h4>
+            <p>We compile CSV databases containing team statistics, match conditions, and scores over several seasons.</p>
+        </div>
+        <div class="step-indicator"><i class="fa-solid fa-angle-right"></i></div>
+        <div class="step-item" id="step-2">
+            <div class="step-number">02</div>
+            <h4>Pipeline Training</h4>
+            <p>Categorical attributes are one-hot encoded, and data is scaled. A Random Forest model learns non-linear correlations.</p>
+        </div>
+        <div class="step-indicator"><i class="fa-solid fa-angle-right"></i></div>
+        <div class="step-item" id="step-3">
+            <div class="step-number">03</div>
+            <h4>Live Inference</h4>
+            <p>The web server processes input form parameters through the pipeline to estimate winner probability and runs/goals.</p>
+        </div>
+    </div>
+</section>
+{% endblock %}

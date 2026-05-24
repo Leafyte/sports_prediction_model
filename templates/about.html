@@ -1,0 +1,184 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<section class="about-section" id="about-project-documentation">
+    <div class="section-header">
+        <h2 class="section-title">About This Project</h2>
+        <p class="section-desc">Technical implementation, Machine Learning architecture, and college presentation guidelines.</p>
+    </div>
+
+    <!-- Presentation Details Card -->
+    <div class="about-grid-top">
+        <div class="about-card card-academic" id="academic-credentials">
+            <h3 class="card-subtitle"><i class="fa-solid fa-graduation-cap"></i> Academic Project Profile</h3>
+            <div class="academic-details-list">
+                <div class="academic-row">
+                    <span class="ac-label">Project Title:</span>
+                    <span class="ac-val">Sports Match Outcome Prediction Web Application</span>
+                </div>
+                <div class="academic-row">
+                    <span class="ac-label">Course / Subject:</span>
+                    <span class="ac-val">Machine Learning & Data Science Lab (CS-601)</span>
+                </div>
+                <div class="academic-row">
+                    <span class="ac-label">Student Name:</span>
+                    <span class="ac-val select-placeholder">[Your Name]</span>
+                </div>
+                <div class="academic-row">
+                    <span class="ac-label">Roll Number:</span>
+                    <span class="ac-val select-placeholder">[Your Roll Number]</span>
+                </div>
+                <div class="academic-row">
+                    <span class="ac-label">Academic Year:</span>
+                    <span class="ac-val">2026</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-card card-summary" id="project-overview">
+            <h3 class="card-subtitle"><i class="fa-solid fa-circle-info"></i> Project Executive Summary</h3>
+            <p>This web application predicts match outcomes and expected scores across three distinct sports using Scikit-Learn's Random Forest algorithms. Unlike basic predictors that simply forecast a winner, this app employs <strong>multi-output regression pipelines</strong> to predict expected scores (goals, runs, points) along with **probabilistic classifiers** to gauge the exact confidence percentage for each team.</p>
+            <p>The code is designed to be fully self-contained. It features dynamic dataset generation, feature preprocessing, model evaluation, and a modern asynchronous Flask API.</p>
+        </div>
+    </div>
+
+    <!-- ML Flow Section -->
+    <div class="about-card workflow-visualizer-card" id="ml-pipeline-flow">
+        <h3><i class="fa-solid fa-diagram-project"></i> Machine Learning Flowchart</h3>
+        <p class="flow-intro">The diagram below illustrates the path of data from synthetic CSV generation to real-time model prediction in the UI.</p>
+        
+        <div class="ml-flow-diagram">
+            <div class="flow-step">
+                <div class="flow-step-icon"><i class="fa-solid fa-file-csv"></i></div>
+                <h5>1. Raw Data</h5>
+                <p>Loads 800+ matches from CSV for IPL, Football, and NBA.</p>
+            </div>
+            <div class="flow-arrow"><i class="fa-solid fa-arrow-right-long"></i></div>
+            
+            <div class="flow-step">
+                <div class="flow-step-icon"><i class="fa-solid fa-broom"></i></div>
+                <h5>2. Cleaning</h5>
+                <p>Imputes missing values and handles categorical fields.</p>
+            </div>
+            <div class="flow-arrow"><i class="fa-solid fa-arrow-right-long"></i></div>
+            
+            <div class="flow-step">
+                <div class="flow-step-icon"><i class="fa-solid fa-key"></i></div>
+                <h5>3. Encoding</h5>
+                <p>One-Hot Encoding converts team names and venues to binary vectors.</p>
+            </div>
+            <div class="flow-arrow"><i class="fa-solid fa-arrow-right-long"></i></div>
+            
+            <div class="flow-step">
+                <div class="flow-step-icon"><i class="fa-solid fa-dumbbell"></i></div>
+                <h5>4. Split & Train</h5>
+                <p>Splits 80/20. Trains Random Forest Classifiers and Regressors.</p>
+            </div>
+            <div class="flow-arrow"><i class="fa-solid fa-arrow-right-long"></i></div>
+            
+            <div class="flow-step">
+                <div class="flow-step-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                <h5>5. Inference</h5>
+                <p>Flask processes API request parameters and predicts outcomes in real time.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Models Details & Performance -->
+    <div class="about-card" id="models-and-accuracy">
+        <h3><i class="fa-solid fa-chart-simple"></i> Model Configuration & Test Performance</h3>
+        <p>The models are trained dynamically on startup. Here are the current metrics loaded from the backend:</p>
+        
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <div class="metric-sport-title">IPL Cricket Models</div>
+                <div class="metric-row-small">
+                    <span class="m-label">Dataset Size:</span>
+                    <span class="m-val">{{ ipl_metrics.dataset_size }} Matches</span>
+                </div>
+                <div class="metric-row-small">
+                    <span class="m-label">Classification Accuracy:</span>
+                    <span class="m-val text-accent">{{ ipl_metrics.accuracy }}%</span>
+                </div>
+                <div class="metric-row-small">
+                    <span class="m-label">Classifier:</span>
+                    <span class="m-val-mono">RandomForestClassifier</span>
+                </div>
+                <div class="metric-row-small">
+                    <span class="m-label">Regressor:</span>
+                    <span class="m-val-mono">RandomForestRegressor</span>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-sport-title">Football Models</div>
+                <div class="metric-row-small">
+                    <span class="m-label">Dataset Size:</span>
+                    <span class="m-val">{{ football_metrics.dataset_size }} Matches</span>
+                </div>
+                <div class="metric-row-small">
+                    <span class="m-label">Classification Accuracy:</span>
+                    <span class="m-val text-accent">{{ football_metrics.accuracy }}%</span>
+                </div>
+                <div class="metric-row-small">
+                    <span class="m-label">Classifier:</span>
+                    <span class="m-val-mono">RandomForestClassifier (3-class)</span>
+                </div>
+                <div class="metric-row-small">
+                    <span class="m-label">Regressor:</span>
+                    <span class="m-val-mono">RandomForestRegressor</span>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-sport-title">NBA Basketball Models</div>
+                <div class="metric-row-small">
+                    <span class="m-label">Dataset Size:</span>
+                    <span class="m-val">{{ nba_metrics.dataset_size }} Matches</span>
+                </div>
+                <div class="metric-row-small">
+                    <span class="m-label">Classification Accuracy:</span>
+                    <span class="m-val text-accent">{{ nba_metrics.accuracy }}%</span>
+                </div>
+                <div class="metric-row-small">
+                    <span class="m-label">Classifier:</span>
+                    <span class="m-val-mono">RandomForestClassifier</span>
+                </div>
+                <div class="metric-row-small">
+                    <span class="m-label">Regressor:</span>
+                    <span class="m-val-mono">RandomForestRegressor</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Presentation Viva Guide -->
+    <div class="about-card card-faq" id="presentation-faq">
+        <h3><i class="fa-solid fa-circle-question"></i> Presentation Q&A (Viva-Voce Guide)</h3>
+        <p class="faq-intro">Prepare for your college project evaluation by reviewing these common machine learning questions.</p>
+        
+        <div class="faq-list">
+            <div class="faq-item">
+                <h5 class="faq-question">Q: Why did you choose Random Forest over simple Logistic/Linear Regression?</h5>
+                <div class="faq-answer">
+                    <p><strong>A:</strong> Random Forest is an ensemble learning method based on decision trees. Unlike linear models, it handles complex, non-linear relationships and high-dimensional categorical features (like team vs team on specific venues) without assuming a linear boundary, resulting in higher predictive accuracy and robustness to outliers.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <h5 class="faq-question">Q: How do you handle categorical columns like team names in the machine learning code?</h5>
+                <div class="faq-answer">
+                    <p><strong>A:</strong> We use Scikit-Learn's `OneHotEncoder`. This preprocessor converts categorical strings (e.g., "Mumbai Indians") into binary columns (1s and 0s) so the mathematical algorithms can process them. We bundle the `OneHotEncoder` and the model into a Scikit-Learn `Pipeline` to ensure preprocessing is applied automatically during both training and prediction.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <h5 class="faq-question">Q: What is the benefit of predicting win probability alongside the winning team?</h5>
+                <div class="faq-answer">
+                    <p><strong>A:</strong> Simple winner classification only gives a label (e.g., Team A). By using the `predict_proba()` method, we extract the model's confidence distribution. This allows us to display the prediction as a percentage (e.g., 68.5% win chance), representing the probability of occurrence, which is a much more useful and professional metric in sports analytics.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
